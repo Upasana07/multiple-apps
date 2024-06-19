@@ -1,38 +1,62 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.submit-form {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 20px;
+}
+.my-btn {
+  width: 100px;
+  padding: 5px;
+  background-color: hotpink;
+  border: none;
+  cursor: pointer;
+}
+.btn {
+  background-color: black;
   color: white;
+  padding: 5px;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+table {
+  width: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+th {
+  background-color: hotpink;
+}
+tr:nth-child(odd) {
+  background-color: lightpink;
+}
+.input-div{
+  display: flex;
+  gap: 10px
+}
+.header {
+  background-color: pink;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.numbers{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.numbers button {
+  padding: 10px;
+  width: 100px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.calc-input {
+  width: 50vw;
+  padding: 10px;
 }
